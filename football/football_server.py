@@ -1,5 +1,5 @@
 """
-FastMCP Football Server (FastMCP 2.x)
+FastMCP Football Server (FastMCP 3.x)
 """
 
 import logging
@@ -51,6 +51,6 @@ async def get_counts() -> str:
 
     return format_count(data)
 
-#Added for MCP 2.x
+#Server entrypoint
 if __name__ == "__main__":
     mcp.run()  
